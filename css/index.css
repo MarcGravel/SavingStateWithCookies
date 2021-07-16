@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(44, 44, 44);
+}
+
+#selectContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 20vh;
+    width: 40vw;
+}
+
+#selectContainer h1 {
+    grid-column: 1 / 4;
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+#selectContainer button {
+    cursor: pointer;
+    padding: 3vh 4vw 3vh 4vw;
+    border-radius: 40px;
+    box-shadow: 5px 8px;
+    font-size: 1.6em;
+}
+
+#selectContainer #moltres {
+    background-color: rgb(250, 179, 46);
+}
+
+#selectContainer #articuno {
+    background-color: rgb(93, 198, 233);
+}
+
+#selectContainer #zapdos {
+    background-color: rgb(247, 247, 91);
+}

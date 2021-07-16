@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(44, 44, 44);
+}
+
+#UserSelection {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    height: 50vh;
+    width: 60vw;
+}
+
+h1 {
+    font-size: 4em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 2vh 2vw 2vh 2vw;
+    border-radius: 40px;
+    box-shadow: 5px 8px;
+    font-size: 1.6em;
+    background-color: whitesmoke;
+}
+
+img {
+    height: 40vh;
+    margin-top: 10vh;
+}
+
